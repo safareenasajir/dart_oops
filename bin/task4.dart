@@ -1,5 +1,5 @@
 void main(){
-  List a=[0,3,6,1];//4
+  List a=[0,3,6,1];
   int len=a.length;
   for(int i=0;i<len;i++){
     for(int j=0;j<len-i-1;j++){
@@ -14,5 +14,3 @@ void main(){
   print(a);
 }
 
-//[0,3,1,6]
-//[0,1,3,6]

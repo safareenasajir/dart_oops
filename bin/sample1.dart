@@ -1,5 +1,5 @@
 
-import 'dart:io';
+
 
 void main(List<String> arguments) {
 
@@ -46,7 +46,12 @@ void main(List<String> arguments) {
 //  fact(x);
 int reslt=factorial(6);
 print(reslt);
-
+// print('''my name is safareena,
+// i am from charakkaparamba''');
+// String str1='safa';
+// String str2='reen';
+// String reslut=str1+str2;
+// print(reslut);
 }
 //without arguments without return value
 // void add(){
@@ -80,18 +85,18 @@ print(reslt);
 //   print(reslt);
 //   return reslt;
 //  }
-// void fact(int num){
+void fact(int num){
   
-//   int facto=1;
-//   for(int i=1;i<=num;i++){
+  int facto=1;
+  for(int i=1;i<=num;i++){
     
-//     facto=facto*i;
+    facto=facto*i;
     
-//   }
-//   print(facto);
+  }
+  print(facto);
 
   
-// }
+}
 
 // int user(){
 //   print("enter the number:");
